@@ -68,10 +68,10 @@
             echo "{$service_number}. {$service} \n";
         }
         $selected_service = readline("What would you like to bill?");
-        if (!is_numeric($selected_service) && $selected_service !== "exit") {
-    echo "Please enter a valid choice.\n\n";
-    continue;
-}
+                if(!is_numeric($selected_service) && $selected_service !== "exit"){
+            echo "Please enter a valid choice. \n\n";
+            continue;
+        }
         if($selected_service === "exit"){
             echo "Good bye";
             return;
