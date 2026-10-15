@@ -24,7 +24,6 @@
 
 
 
-
    const PER_PAGE_COST_BW = 150;
    const PER_PAGE_COST_COLOR = 800;
    const PRINT_DISCOUNT_COLOR = 0.2;  // 20%
