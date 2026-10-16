@@ -46,7 +46,8 @@
                $total = $initial_total - ($initial_total * PRINT_DISCOUNT_COLOR);
                break;
        }
-
+       
+ // Format and display the final bill.
             $formated_total = number_format($total);
            echo "Cutomer pays: {$formated_total} UGX\n";
            return $total;
