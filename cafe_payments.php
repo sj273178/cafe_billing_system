@@ -8,13 +8,13 @@
 //An error message indicating that usage time
 //must be greater than zero.
 //Result: PASS if the invalid input is rejected.
-//
+
 //TEST CASE 3: Valid black-and-white printing
 //Input: 10 pages, style 1
 //Expected:
 //10 * 150 = 1,500 UGX
 //Result: PASS if the customer pays 1,500 UGX.
-//
+
 //TEST CASE 4: Valid coloured printing
 //Input: 10 pages, style 2
 //Expected:
@@ -22,14 +22,14 @@
 //Discount: 1,600 UGX
 //Customer pays: 6,400 UGX
 //Result: PASS if the customer pays 6,400 UGX.
-//
+
 //TEST CASE 5: Invalid printing page count
 //Input: 0 pages, style 1
 //Expected:
 //An error message indicating that the page count
 //and/or printing style is invalid.
 //Result: PASS if the invalid input is rejected.
-//
+
 //TEST CASE 6: Boundary test for printing
 //Input: 5,000 pages, style 1
 //Expected:
